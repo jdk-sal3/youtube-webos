@@ -28,5 +28,6 @@ import './video-quality';
 import './lang-settings-fix';
 import './remove-endscreen';
 import './hooks';
+import './subtitles-timedtext';
 import './block-webos-cast';
 import './auto-account-select';

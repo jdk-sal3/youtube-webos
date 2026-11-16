@@ -14,7 +14,7 @@
     "manifest": "node tools/gen-manifest.cjs youtube.leanback.v4.manifest.json",
     "prepare": "husky",
     "test:compat": "es-check",
-    "test:subtitles": "node --test --experimental-strip-types src/subtitles-core.test.ts",
+    "test:subtitles": "node --test --experimental-strip-types src/subtitles-core.test.ts src/subtitles-timedtext.test.ts",
     "lint:eslint": "eslint --concurrency auto",
     "lint:tsc": "tsc -b",
     "lint:prettier": "prettier --check .",
